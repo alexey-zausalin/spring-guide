@@ -1,4 +1,4 @@
-package com.github.alexeyzausalin.springguides.restservice;
+package com.github.alexeyzausalin.springguides.gsrestservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

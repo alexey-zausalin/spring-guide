@@ -26,7 +26,7 @@ public class GsConsumingRestApplication {
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
-			Quote quote = restTemplate.getForObject("https://quoters.apps.pcfone.io/api/random", Quote.class);
+			News quote = restTemplate.getForObject("https://chroniclingamerica.loc.gov/search/titles/results/?terms=michigan&format=json", News.class);
 			log.info(quote.toString());
 		};
 	}
